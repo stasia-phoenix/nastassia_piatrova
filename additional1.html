@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .colorred {
+          color: red; 
+        }
+        .colorblue {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">Заголовок первого уровня</h1>
+    <h2>Предварительно форматированный текст:</h2>
+    <pre>
+        x | o |
+       ‐‐‐‐‐‐‐‐‐‐‐
+          | х |
+       ‐‐‐‐‐‐‐‐‐‐‐
+        o | x | o
+    </pre>
+    <hr>
+    <h2>Тег address</h2>
+    <address>Kuprevicha, 1/1, 220141, Minsk, Belarus. Phone: +375.17.2686911</address>
+    <hr>
+    <h2>Семантические и функциональные строчные теги</h2>
+    <p>Пожелания автора:<br><span class="colorred"><del>Данный текст убрать из монографии</del></span> и заменить его на <span class="colorblue"><ins>вновь помещённый текст.</ins></span></p>
+    <hr>
+    <h2>Работа со строчными и блоковыми цитатами</h2>
+    <p>Цитата короткая:<br><q><i>И всё­-таки она вертится!</i></q></p>
+    <p>Цитата занимающая несколько предложений:</p>
+    <blockquote><p>О сколько нам открытий чудных<br>
+        Готовят просвещенья дух<br>
+        И опыт, сын ошибок трудных,<br>
+        И гений, парадоксов друг,<br>
+        И случай, бог изобретатель...</p>
+    </blockquote>
+    <hr>
+    <h2>Семантические и функциональные строчные теги</h2>
+    <p><strong>Тэг &ltSTRONG&gt делает данный фрагмент текста более важным.</strong> <em>Тэг &ltem&gt менее важным.</em>
+        В то время как теги &ltb&gt и &lti&gt делают текст просто <b>полужирным</b> и <i>курсивом</i> соответственно.</p>
+    <hr>
+    <h2>Теги форматирования машинного языка</h2>
+    <p>При выполнении программного кода на языке PERL:</p>
+    <p><code>#!/usr/local/bin/perl<br>
+        print "Content‐type: text/html\n\n";<br>
+        print "&ltH1&gtHello World &lt/H1&gt\n";</code></p>
+    <p>Программа выведет:</p>
+    <p><samp>Hello, World!</samp></p>
+    <p>Однако в браузере у нас будет отображаться результат выполнения этой программы:</p>
+    <h1>Hello, World!</h1>
+    <hr>
+    <h2>Комментарии и литералы(мнемоники) в HTML</h2>
+    <p>&lt!&ndash; &ndash; это комментарий &ndash; &ndash;&gt<br>
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&lt!&ndash; &ndash; и это также комментарий,<br>
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;занимающий более одной строки &ndash; &ndash;&gt</p>
+    <hr>
+    <h2>Теги над­ и подстрочных символов</h2>
+    <h3 align="center">Магазин работает:</h3>
+    <p align="center">c 08<sup><u>30</u></sup> до 18<sup><u>30</u></sup><br>
+        обед с 13<sup><u>00</u></sup> до 14<sup><u>00</u></sup><br>
+        выходной: <u>суббота</u>, <u>воскресенье</u></p>
+    <hr>
+    <h2>Вот такой текст</h2>
+    <h2><b>Э<sub>т</sub>о <sub>п</sub>р<sub>о</sub>с<sub>т</sub>о <sub>в</sub>е<sub>с</sub>ё<sub>л</sub>ы<sub>й</sub> т<sub>е</sub>к<sub>с</sub>т</b></h2>
+    <hr>
+    <h2>Акроним и курсив</h2>
+    <p>ТФ: Y(x)=e<sup><i>-iπx</i></sup>­+log<sub><i>x</i></sub>4</p>
+    <hr>
+    <h2>Тег small внтури абзаца</h2>
+    <p  align="right"><small>Создано при помощи блокнота©</small></p> 
+</body>
+</html>
