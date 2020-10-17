@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navigation {
+            width: 15em;
+            background-color: blueviolet;
+            float: left;
+        }
+        main {
+            overflow: hidden;            
+        }        
+        .article {
+            background-color: coral;
+            margin-bottom: 2em;                        
+        }
+        .article h2 {
+            margin-top: 0px;
+        }
+        div.article::after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+        .footer {
+            background-color: cornflowerblue;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="navigation">
+        <h2>Блок навигации</h2>
+        <ul>
+            <li>Ширина 15em</li>
+            <li>Должен присутствовать цвет фона</li>
+            <li>Располагается слева</li>
+            <li>Блок навигации гаполните контентом достаточным, чтобы по высоте он начинал захватывать вторую статью, как показано в данном примере</li>
+        </ul> 
+    </div>
+    <main>
+        <div class="article">
+            <h2>Статья 1</h2>
+            <p>Размер блока: <br>
+            Занимает всю доступную ширину<br>
+            Должен присутствовать цвет фона<br>
+            Во всех "статьях" сделайте отступ снизу от соседей равным .2em, при помощи свойства margin-bottom </p>
+            
+        </div>
+        <div class="article">
+            <h2>Статья 2</h2>
+            <p>Размер блока: <br>
+            Занимает всю доступную ширину<br>
+            Должен присутствовать цвет фона<br>
+            Во всех "статьях" сделайте отступ снизу от соседей равным .2em, при помощи свойства margin-bottom <br>
+            Картинка вставлена при помощи тега, плавание организовано по правому краю внутри данной статьи</p>
+            <img src="home1.png" width=30px; style="float: right;">
+            
+        </div>
+    </main>
+    <div class="footer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quibusdam autem neque. Amet repudiandae eum atque, repellendus voluptatum porro eos magni dignissimos tempora voluptas cupiditate, sapiente sit placeat tenetur libero.</div>
+</body>
+</html>
