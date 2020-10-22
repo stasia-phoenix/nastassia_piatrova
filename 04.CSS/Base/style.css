@@ -1,0 +1,27 @@
+p a[href^="https://"]::before {
+    content: url(extref.png);
+}
+p a[href$=".doc"]::after {
+    content: url(logo-doc.jpg);
+}
+p a[href$=".pdf"]::after {
+    content: url(logo-pdf.png);
+}
+p a[href$=".zip"]::after {
+    content: url(logo-zip.gif);
+}
+li::before {
+    content: url(logo-list.jpg);
+}
+li {
+    list-style-type: none;
+}
+li a[href$=".doc"]:hover::after {
+    content: url(logo-doc.jpg);
+}
+li a[href$=".pdf"]:hover::after {
+        content: url(logo-pdf.png);
+}
+li a[href$=".zip"]:hover::after {
+    content: url(logo-zip.gif);
+}

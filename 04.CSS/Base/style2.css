@@ -1,0 +1,35 @@
+body {
+    background-color: white;
+}
+table {
+    border-collapse: collapse;
+    border: white 1px solid;
+}
+td, th {
+    border: black 1px dashed;
+}
+th {
+    text-align: left;
+}
+tr:nth-child(2n+1) {
+    background-color: rgba(168, 166, 166, 0.473);
+}
+
+tr:nth-child(1) {
+    color: white;
+    background-color: gray;
+}
+tr:nth-child(2n) {
+    background-color: white;
+}
+caption {
+    caption-side: bottom;
+}
+tr:hover {
+    color: black;
+    background-color: orange;
+    cursor: pointer;
+}
+table tr:first-child th{
+    text-align: center;
+}
