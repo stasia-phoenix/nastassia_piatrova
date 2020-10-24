@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>    
+    <div class="container">
+        <H1><b> HOW-TO: Программа на Python, Часть 2 </b></H1>
+      <div class="row">
+         <div class="col-lg-3">
+             <div class="menu">
+                <p><a name="content"></a></p>
+                <UL class="list-group">
+                   <LI class="list-group-item"> <I><a href="04.HTML_program_in_python_part1.html">Программа на Python &mdash; Часть 1 </a></I></LI>
+                   <LI class="list-group-item"> <I><a href="">Программа на Python &mdash; Часть 2 </a></I></LI>
+                   <LI class="list-group-item"> <I><a href="04.HTML_program_in_python_part3.html">Программа на Python &mdash; Часть 3 </a></I></LI>
+                </UL>
+                <H2><b>Содержание</b></H2>
+                <H3><b> HOW-TO: Программа на Python, Часть 2 </b></H3>
+                <UL>
+                   <LI> <a href="#lists">Списки</a></LI>
+                   <LI> <a href="#comments">Комментарии</a></LI>
+                </UL>
+             </div>
+         </div> 
+         <div class="col-lg-9">
+            <div class="menu">
+                <P>Впрошлом уроке мы рассмотрели простую программу, которая использовала raw_input
+                    для получения ответа пользователя, простые типы переменных и простой цикл «<b>for</b>». В
+                    этом уроке мы рассмотрим ещё больше типов переменных и напишем ещё больше
+                    программ.</P>
+                    <p><a name="lists"></a></p>    
+                 <H2><b>Списки</b></H2>
+                 <p><a href="#content">К содержанию</a></p>
+                 <p> Давайте рассмотрим другой тип переменных, который называется <i>списки</i>. В других
+                    языках программирования они называются <i>массивами</i>. Если мы обратимся к аналогии с
+                    коробками для обуви, то массив (список) представляет собой несколько склеенных друг с
+                    другом коробок с одинаковыми вещами. Например, в одной коробке лежат вилки, в
+                    другой — ножи, в третьей — ложки. Посмотрим на простой список— список месяцев. Мы
+                    запрограммируем его так:</p>
+                <div class="alert alert-secondary" role="alert"><CODE>
+                    months =
+                    ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']</CODE>
+                </div> 
+                 
+                 <p>Чтобы создать список, мы заключили все значения в квадратные скобки ( <b>'['</b> и <b>']'</b> ). Мы
+                    назвали наш список '<i>months</i>'. Чтобы использовать список, мы дадим команду print
+                    <b>months[0]</b> или <b>months[1]</b> (которые выведут на экран '<i>Jan</i>' или '<i>Feb</i>'). Помните: счет
+                    начинается с нуля. Чтобы найти длину списка, можно использовать такую функцию:</p>
+                <div class="alert alert-secondary" role="alert"><CODE>
+                    print len(months)</CODE>
+                </div>
+                
+                 <p>которая вернёт 12.</p>
+                 <p>Ещё один пример списков — категории в поваренной книге. Например...</p>
+                 <div class="alert alert-secondary" role="alert"><CODE>
+                    categories = ['Main dish','Meat','Fish','Soup','Cookies']</CODE>
+                </div>
+                 
+                 <p>Таким образом, в <b>categories[0]</b> хранится '<i>Main dish</i>', а в <b>categories[4]</b> — '<i>Cookies</i>'. Всё
+                    очень просто. Я уверен, вы сможете придумать много других примеров использования
+                    списков.</p>
+                 <HR>
+                 
+                 <p><a name="comments"></a></p>
+                 <H2><b>Комментарии</b></H2>
+                 <p><a href="#content">К содержанию</a></p>
+                 <p>Далее, мы должны обсудить комментарии. Комментарии важны по нескольким причинам.
+                    Они не только говорят вам или другим людям, что вы пытаетесь делать, но и напомнят
+                    вам через полгода, что же вы хотели сделать. Когда вы будете писать много программ,
+                    комментарии станут важными. Также при их помощи вы заставите Python игнорировать
+                    какие-либо части кода. Чтобы закомментировать строку, поставьте перед ней знак '#'.
+                    Например:</p>
+                <div class="alert alert-secondary" role="alert"><CODE>
+                     # </CODE>
+                </div>
+                 
+                 <p>Это комментарий</p>
+                 <p>Комментарии можно вставлять в любое место в строке, но помните, что Python
+                    проигнорирует всё, что идёт после '#'.</p>
+                 <table width="100%">
+                    <tr>
+                       <td align='left'><a href="04.HTML_program_in_python_part1.html"><img src="prev1.png" alt="Предыдущая страница" title="Предыдущая страница"></a></td>
+                       <td align='center'><a href="#content"><img src="home1.png" alt="Содержание" title="Содержание"></a></td>
+                       <td align='right'><a href="04.HTML_program_in_python_part3.html"><img src="next1.png" alt="Следующая страница" title="Следующая страница"></a></td>
+                    </tr>
+                 </table>                
+            </div>
+         </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
